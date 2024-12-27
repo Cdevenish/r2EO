@@ -1,0 +1,27 @@
+Package: r2EO
+Title: Create study areas, download EO data
+Version: 0.0.1
+Authors@R: 
+    person("Christian", "Devenish", email= "c.devenish@keele.ac.uk", role = c("aut", "cre"))
+Description: Creates study area polygons from existing sample points or polygons, and downloads remote sensed data from LPDAAC, including ASTER, STRTM digital elevation models, MODIS, Landsat and Sentinel data. 
+License: 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+LazyData: true
+Imports: 
+    sf,
+    terra,
+    raster,
+    reticulate,
+    getPass,
+    httr,
+    jsonlite,
+    geojsonsf,
+    geojsonR,
+    osmdata
+Suggests:
+    collapse,
+    igraph
+Depends: 
+    R (>= 2.10)
